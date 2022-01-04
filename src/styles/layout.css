@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  display: grid;
+  grid: auto-flow min-content / 1fr;
+  background-color: rgb(238, 237, 245);
+  grid-gap: 1rem;
+  min-height: 100vh;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  grid-template-areas:
+    "header"
+    "welcome"
+    "footer";
+}
+
+.header {
+  grid-area: header;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+.welcome {
+  grid-area: welcome;
+  justify-self: center;
+}
