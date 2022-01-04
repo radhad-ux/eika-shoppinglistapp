@@ -1,0 +1,18 @@
+.header {
+  line-height: 0.8;
+  width: 100%;
+  background-color: hsl(122, 52%, 80%);
+  padding: 0;
+  top: 0;
+  position: fixed;
+  display: block;
+}
+
+.logo {
+  height: 50px;
+  border-radius: 8px;
+  margin: 1rem auto;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
