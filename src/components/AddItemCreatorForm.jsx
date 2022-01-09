@@ -20,9 +20,9 @@ export default function AddItemCreatorForm({ onSubmit }) {
   }
   function inputIsValid() {
     if (name.trim() === "") {
-      alert("Please Enter the Item Name");
+      return alert("Please Enter the Item Name");
     } else if (price.trim() === "") {
-      alert("Please Enter the Item Price");
+      return alert("Please Enter the Item Price");
     } else {
       return true;
     }
@@ -43,7 +43,7 @@ export default function AddItemCreatorForm({ onSubmit }) {
         value={price}
         onChange={(event) => setPrice(event.target.value)}
       />
-      <button onClick={handleSubmit}>Add item</button>
+      <button onClick={handleSubmit}>Submit</button>
     </div>
   );
 }
