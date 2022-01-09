@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { v4 as uuidv4 } from "uuid";
 
 export default function AddItemCreatorForm({ onSubmit }) {
   const [name, setName] = useState("");
@@ -8,7 +9,7 @@ export default function AddItemCreatorForm({ onSubmit }) {
     event.preventDefault();
     if (inputIsValid) {
       onSubmit({
-        id: new Date.getTime.toString(),
+        id: Math.random(),
         name: name,
         price: price,
         isCompleted: false,
@@ -42,7 +43,7 @@ export default function AddItemCreatorForm({ onSubmit }) {
         value={price}
         onChange={(event) => setPrice(event.target.value)}
       />
-      <button onClick={handleSubmit}>Submit</button>
+      <button onClick={handleSubmit}>Add item</button>
     </div>
   );
 }
