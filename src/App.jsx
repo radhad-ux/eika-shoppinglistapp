@@ -22,7 +22,11 @@ function App() {
   return (
     <div className="App">
       <Header />
-      {itemList.length === 0 ? <WelcomeScreen /> : <ListScreen />}
+      {itemList.length === 0 ? (
+        <WelcomeScreen itemList={itemList} setItemList={setItemList} />
+      ) : (
+        <ListScreen itemList={itemList} setItemList={setItemList} />
+      )}
       <Footer />
     </div>
   );
