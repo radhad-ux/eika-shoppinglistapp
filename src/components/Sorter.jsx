@@ -15,7 +15,7 @@ export default function Sorter({ itemList, setItemList }) {
   }
   return (
     <div className="sorter">
-      <label>Sort by</label>
+      <label>Sort items by</label>
       <button className="btn-sorter" onClick={sortByName}>
         Name
       </button>
