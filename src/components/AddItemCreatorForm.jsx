@@ -12,7 +12,7 @@ export default function AddItemCreatorForm({ onSubmit }) {
         id: Math.random(),
         name: name,
         price: price,
-        isCompleted: false,
+        isAcquired: false,
       });
       setName("");
       setPrice("");
