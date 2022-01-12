@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+section {
+  display: block;
+}
+
+body {
+  font-family: Noto Sans;
+}
+
+@media only screen and (max-width: 48em) {
+  body {
+    padding: 0;
+  }
+}
+section {
+  padding: 2rem 0;
+}
+@media only screen and (max-width: 48em) {
+  section {
+    padding: 1rem 0;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

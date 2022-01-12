@@ -1,11 +1,12 @@
-import Header from "./components/Header";
 import WelcomeScreen from "./screens/WelcomeScreen";
 import ListScreen from "./screens/ListScreen";
 import Footer from "./components/Footer";
-import "./styles/layout.css";
+import "./css/style.css";
 import { useState, useEffect } from "react";
+import Header from "./components/Header";
 
 function App() {
+  // Local state
   const [itemList, setItemList] = useState([]);
 
   useEffect(() => {
@@ -22,6 +23,7 @@ function App() {
   return (
     <div className="App">
       <Header />
+
       {itemList.length === 0 ? (
         <WelcomeScreen itemList={itemList} setItemList={setItemList} />
       ) : (
