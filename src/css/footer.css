@@ -1,0 +1,32 @@
+.footer {
+  font-family: "Noto Sans";
+  font-size: 12px;
+  font-weight: normal;
+  color: #0058a3;
+  margin-top: 2rem;
+  bottom: 0;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icons img {
+  margin: 0.5rem;
+  cursor: pointer;
+  width: 2rem;
+  height: auto;
+  box-shadow: none;
+}
+.icons img:hover {
+  transform: scale(1.3);
+  transition: 0.3s linear;
+  background-color: #0058a3;
+}
+
+.logo {
+  height: 12px;
+  margin-bottom: 0;
+  width: 30px;
+  margin-left: 2px;
+}

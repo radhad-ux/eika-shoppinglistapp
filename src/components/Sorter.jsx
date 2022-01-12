@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Sorter({ itemList, setItemList }) {
   function sortByName() {
-    const sorted = itemList.sort((a, b) => a.name.localCompare(b.name));
+    const sorted = itemList.sort((a, b) => a.name.localeCompare(b.name));
 
     setItemList([...sorted]);
     localStorage.setItem("itemList", JSON.stringify(itemList));

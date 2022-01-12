@@ -1,0 +1,45 @@
+.welcome {
+  display: grid;
+  grid-template-rows: repeat (3, min-content);
+  justify-items: center;
+  line-height: 1.5;
+  max-width: 38rem;
+  margin: 0;
+}
+.welcome .welcome-wrapper {
+  max-width: 90%;
+  padding: 0;
+}
+
+.welcome img {
+  object-fit: cover;
+  max-height: 22rem;
+  height: 100%;
+  max-width: 100%;
+  padding: 1rem 0;
+}
+
+.welcome h2 {
+  font-weight: 450;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #0058a3;
+}
+.welcome h3 {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  color: #0058a3;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.welcome h4 {
+  font-weight: 300;
+  padding: 0 1rem;
+  padding-top: 0.5rem;
+  text-justify: distribute-all-lines;
+  text-align: justify;
+  color: gray;
+}
