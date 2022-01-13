@@ -1,0 +1,40 @@
+.additem-creator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.itemCreatorForm {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 300;
+  justify-items: center;
+  margin-top: 1.5rem;
+}
+
+.itemCreatorForm .form {
+  margin: 1rem auto;
+  display: grid;
+  row-gap: 1.5rem;
+  grid-template-areas: "inputName" "inputPrice" "btn-form";
+}
+
+.itemCreatorForm input {
+  background-color: #fff;
+  border: 2px solid rgb(114, 112, 112);
+  border-radius: 40em;
+  outline: 0;
+  font-size: 1rem;
+  padding: 1rem 1.5rem;
+  margin-top: 1rem;
+  color: gray;
+}
+
+.itemCreatorform input:focus {
+  background-color: #f7fafe;
+  border-color: rgb(255, 219, 0);
+  color: #0055a3;
+  transition: transform 350ms ease-in-out;
+}

@@ -13,7 +13,6 @@ export default function WelcomeScreen({ itemList, setItemList }) {
           item to your list. You can then sort your shopping list by name or
           price and mark items as acquired.
         </h4>
-
         <h3>Thank you for shopping with us ...</h3>
       </div>
       <AddItemCreator itemList={itemList} setItemList={setItemList} />
