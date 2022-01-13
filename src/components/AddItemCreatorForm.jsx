@@ -30,20 +30,26 @@ export default function AddItemCreatorForm({ onSubmit }) {
 
   return (
     <div className="itemCreatorForm">
-      <h3>Add a item for shopping</h3>
-      <input
-        type="text"
-        placeholder="Item Name"
-        value={name}
-        onChange={(event) => setName(event.target.value)}
-      />
-      <input
-        type="number"
-        placeholder="Item Price"
-        value={price}
-        onChange={(event) => setPrice(event.target.value)}
-      />
-      <button onClick={handleSubmit}>Submit</button>
+      <h3>Add an item for shopping</h3>
+      <div className="form">
+        <input
+          className="inputName"
+          type="text"
+          placeholder="Item Name"
+          value={name}
+          onChange={(event) => setName(event.target.value)}
+        />
+        <input
+          className="inputPrice"
+          type="number"
+          placeholder="Item Price"
+          value={price}
+          onChange={(event) => setPrice(event.target.value)}
+        />
+        <button className="btn-form" onClick={handleSubmit}>
+          Submit
+        </button>
+      </div>
     </div>
   );
 }

@@ -10,7 +10,9 @@ export default function AddItemCreator({ itemList, setItemList }) {
 
   return (
     <div className="additem-creator">
-      <button onClick={() => setToggleForm(!toggleForm)}>✍️ Add Item</button>
+      <button className="btn-main" onClick={() => setToggleForm(!toggleForm)}>
+        🛒 Add Item
+      </button>
       {toggleForm && (
         <AddItemCreatorForm onSubmit={(inputData) => createItem(inputData)} />
       )}

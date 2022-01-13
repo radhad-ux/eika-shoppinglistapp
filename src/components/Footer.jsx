@@ -20,8 +20,8 @@ export default function Footer() {
         </a>
       </div>
       <span>
-        ©{currentYear} EIKA-Furniture Shop: All rights reserved
-        <img className="logo" src={logo} alt="logo" />
+        <img className="logo" src={logo} alt="logo" />©{currentYear} EIKA-Home
+        Decor, Inc.
       </span>
     </div>
   );
