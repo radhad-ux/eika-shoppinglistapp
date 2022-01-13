@@ -8,7 +8,6 @@
 .App {
   display: grid;
   grid: auto-flow min-content / 1fr;
-
   grid-gap: 1rem;
   min-height: 100vh;
   justify-content: center;

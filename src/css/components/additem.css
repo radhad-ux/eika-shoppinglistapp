@@ -11,6 +11,8 @@
   line-height: 1.5;
   font-weight: 300;
   justify-items: center;
+  align-items: center;
+  justify-content: center;
   margin-top: 1.5rem;
 }
 
@@ -18,7 +20,7 @@
   margin: 1rem auto;
   display: grid;
   row-gap: 1.5rem;
-  grid-template-areas: "inputName" "inputPrice" "btn-form";
+  grid-template-areas: "inputName" "inputPrice" "submit";
 }
 
 .itemCreatorForm input {
@@ -30,6 +32,8 @@
   padding: 1rem 1.5rem;
   margin-top: 1rem;
   color: gray;
+  display: inline-flex;
+  flex-direction: column;
 }
 
 .itemCreatorform input:focus {
@@ -37,4 +41,18 @@
   border-color: rgb(255, 219, 0);
   color: #0055a3;
   transition: transform 350ms ease-in-out;
+}
+
+.itemCreatorform .btn-form {
+  margin: 1rem;
+  grid-area: submit;
+  justify-self: center;
+}
+
+.itemCreatorForm .inputName {
+  grid-area: inputName;
+}
+
+.itemCreatorForm .inputPrice {
+  grid-area: inputPrice;
 }

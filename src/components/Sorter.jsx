@@ -14,14 +14,18 @@ export default function Sorter({ itemList, setItemList }) {
     localStorage.setItem("itemList", JSON.stringify(itemList));
   }
   return (
-    <div className="sorter">
-      <label>Sort items by</label>
-      <button className="btn-sorter" onClick={sortByName}>
-        Name
-      </button>
-      <button className="btn-sorter" onClick={sortByPrice}>
-        Price
-      </button>
-    </div>
+    <section className="sorter">
+      <h4 className="sort-label">Sort items by:</h4>
+      <div className="btn-sortbyname">
+        <button className="btn-sorter" onClick={sortByName}>
+          Name
+        </button>
+      </div>
+      <div className="btn-sortbyprice">
+        <button className="btn-sorter" onClick={sortByPrice}>
+          Price
+        </button>
+      </div>
+    </section>
   );
 }
