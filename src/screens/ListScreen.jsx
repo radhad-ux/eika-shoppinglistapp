@@ -18,9 +18,9 @@ export default function ListScreen({ itemList, setItemList }) {
   }
 
   return (
-    <div className="listscreen">
-      <div className="listheading">
-        <h3>Your Shopping list</h3>
+    <section className="listscreen">
+      <div className="text-box">
+        <h2>Your Shopping list</h2>
       </div>
       <Sorter itemList={itemList} setItemList={setItemList} />
 
@@ -35,9 +35,10 @@ export default function ListScreen({ itemList, setItemList }) {
         />
       )}
       {showAcquired && acquiredItemList}
-      <button className="btn-form" onClick={removeAllItems}>
+
+      <button className="btn-secondary" onClick={removeAllItems}>
         Clear List
       </button>
-    </div>
+    </section>
   );
 }

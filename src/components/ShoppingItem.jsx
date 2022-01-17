@@ -4,7 +4,7 @@ export default function ShoppingItem({ item, updateItemList }) {
   const { id, name, price, isAcquired } = item;
 
   return (
-    <div className={isAcquired === false ? "itemList" : "acquired-items"}>
+    <article className={isAcquired === false ? "itemList" : "acquired-items"}>
       {isAcquired === false && (
         <div>
           <input
@@ -16,6 +16,6 @@ export default function ShoppingItem({ item, updateItemList }) {
       )}
       <p>{name}</p>
       <p>{price}</p>
-    </div>
+    </article>
   );
 }

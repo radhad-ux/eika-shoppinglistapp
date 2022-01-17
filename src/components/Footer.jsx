@@ -7,7 +7,7 @@ import logo from "../img/mainlogo.jpg";
 export default function Footer() {
   const currentYear = new Date().getFullYear();
   return (
-    <div className="footer">
+    <footer>
       <div className="icons">
         <a href="https://github.com/radhad-ux/eika-shoppinglistapp/">
           <img src={github} alt="github-icon" />
@@ -19,10 +19,7 @@ export default function Footer() {
           <img src={linkedin} alt="linkedin-icon" />
         </a>
       </div>
-      <span>
-        <img className="logo" src={logo} alt="logo" />©{currentYear} EIKA-Home
-        Decor, Inc.
-      </span>
-    </div>
+      <span>©{currentYear} EIKA-Home Decor, Inc.</span>
+    </footer>
   );
 }

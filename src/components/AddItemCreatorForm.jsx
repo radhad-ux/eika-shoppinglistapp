@@ -6,7 +6,7 @@ export default function AddItemCreatorForm({ onSubmit }) {
 
   function handleSubmit(event) {
     event.preventDefault();
-    if (inputIsValid) {
+    if (inputIsValid()) {
       onSubmit({
         id: Math.random(),
         name: name,
@@ -29,7 +29,6 @@ export default function AddItemCreatorForm({ onSubmit }) {
 
   return (
     <div className="itemCreatorForm">
-      <h3>Add an item for shopping</h3>
       <div className="form">
         <input
           className="inputName"
