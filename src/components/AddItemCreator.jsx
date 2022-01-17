@@ -9,7 +9,7 @@ export default function AddItemCreator({ itemList, setItemList }) {
   }
 
   return (
-    <div className="additem-creator">
+    <div className="itemCreator">
       <button className="btn-main" onClick={() => setToggleForm(!toggleForm)}>
         🛒 Add Item
       </button>

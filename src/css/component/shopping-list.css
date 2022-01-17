@@ -1,0 +1,92 @@
+.listscreen .text-box {
+  margin: 0 auto;
+  padding: 0;
+  margin-top: 0;
+  width: 100%;
+  text-align: center;
+  line-height: 2rem;
+  color: darkslategray;
+  text-decoration: underline;
+}
+
+.shopping-list {
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+  width: 80%;
+  padding: 0.5rem 2.8rem;
+}
+
+.itemList {
+  display: flex;
+  flex-direction: row;
+  margin: 0.25rem 0.2rem;
+  width: 80%;
+  align-items: center;
+  justify-items: center;
+  padding: 0;
+  border-color: #0055a3;
+  background-color: transparent;
+  border: 1px solid #0055a3;
+  border-radius: 1rem;
+  justify-content: space-around;
+}
+
+.acquired-items {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0.5rem;
+  width: 80%;
+  align-items: center;
+  padding: 0.5rem 0.5rem;
+  background-color: transparent;
+  justify-content: center;
+  margin: 0 auto;
+  width: 80%;
+  text-decoration: line-through;
+}
+
+.acquired-items p {
+  margin: var(--space-small);
+  font-weight: bold;
+}
+
+.icon-button {
+  background-color: transparent;
+  color: grey;
+  display: inline-flex;
+  align-items: center;
+
+  transition: transform 250ms ease-in-out;
+  position: relative;
+  border: none;
+  box-shadow: 0 0 0 0;
+  cursor: pointer;
+}
+.icon-button::after {
+  content: "";
+  position: absolute;
+  transition: transform 250ms ease-in-out;
+  opacity: 0;
+}
+.icon-button:hover,
+.icon-button:focus {
+  transform: scale(1.05);
+}
+.icon-button:hover::after,
+.icon-button:focus::after {
+  opacity: 1;
+}
+.icon-button .icon {
+  margin-left: 0.3rem;
+  height: 1rem;
+  width: 1.3rem;
+  filter: invert(10%) sepia(90%) saturate(2000%) hue-rotate(160deg)
+    brightness(80%) contrast(50%);
+}
+
+.checkbox-label {
+  cursor: pointer;
+  height: 1 rem;
+  width: 1rem;
+}
