@@ -9,7 +9,7 @@ export default function WelcomeScreen({ itemList, setItemList }) {
       <div className="welcome-wrapper">
         <h3>Welcome to EIKA!</h3>
         <h4>
-          Keep track of your shopping list with the app.Get started by adding a
+          Keep track of your shopping list with the app. Get started by adding a
           item to your list. You can then sort your shopping list by name or
           price and mark items as acquired.
         </h4>
