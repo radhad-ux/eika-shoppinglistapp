@@ -1,5 +1,6 @@
 import React from "react";
 import ShoppingItem from "./ShoppingItem";
+import trash from "../img/trash.png";
 
 function ShoppingItemList({ itemList, setItemList }) {
   const updateItemList = (id) => {
@@ -12,10 +13,23 @@ function ShoppingItemList({ itemList, setItemList }) {
     setItemList(updatedItemList);
   };
 
+  const deleteItemList = (id) => {
+    const deletedItemList = itemList.filter((item) => {
+      return id !== item.id;
+    });
+
+    setItemList(deletedItemList);
+  };
+
   const PendingItemList = itemList
     .filter((item) => !item.isAcquired)
     .map((item) => (
-      <ShoppingItem key={item.id} item={item} updateItemList={updateItemList} />
+      <ShoppingItem
+        key={item.id}
+        item={item}
+        updateItemList={updateItemList}
+        deleteItemList={deleteItemList}
+      />
     ));
 
   return (
