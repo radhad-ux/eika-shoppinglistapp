@@ -20,7 +20,7 @@ You need to have the following installed before you can install and run this pro
 
 1. Clone this repository: git clone https://github.com/radhad-ux/eika-shoppinglistapp.git
 
-2. # Install the dependencies by running npm install in the project directory
+2. Install the dependencies by running npm install in the project directory
 3. Install the dependencies. In the project directory, run: npm install
 
 4. Run the app in the development mode. In the project directory, run: npm start
@@ -50,4 +50,5 @@ You need to have the following installed before you can install and run this pro
 
 If you are using the app for the first time, or if you have no items left to buy, you'll be seeing the welcome screen with an image and the paragraph.
 
-![screenshot1](src\img\eika01.png)
+![eika01](src\img\eika01.png) ![eika02](src\img\eika02.png)
+![eika03](src\img\eika03.png)
