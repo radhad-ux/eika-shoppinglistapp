@@ -54,8 +54,30 @@ You need to have the following installed before you can install and run this pro
 
 ## Using the app
 
-If you are using the app for the first time, or if you have no items left to buy, you'll be seeing the welcome screen with an image and the paragraph.
+If you are using the app for the first time, or if you have no items left to buy, you'll be seeing the welcome screen with an image, paragraph and the add button.
 
-![eika01.png](src/img/eika01.png)
+![eika01.png](src/img/screenshot01.png)
+
+To Add a shopping item
+
+- Click the 'Add item' button.
+- Enter a valid name and price.
+- Click the Submit button to add the item to the item list.
+
 ![eika02.png](src/img/eika02.png)
+
+After adding the desired items in the list
+
+- Sort the items in ascending order with respect to name or price.
+- Click the delete button if you don't need the item in the list.
+- Click on the checkbox to view the items in the acquired list.
+
 ![eika03.png](src/img/eika03.png)
+
+After marking the shopping items as bought
+
+- Toggle between viewing and hiding the list of bought items.
+- Click on Clear list button to completely delete the items from the list and you can view the Welcome screen back.
+
+![eika04.png](src/img/eika04.png)
+![eika05.png](src/img/eika05.png)
