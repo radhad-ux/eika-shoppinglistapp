@@ -52,3 +52,9 @@ If you are using the app for the first time, or if you have no items left to buy
 
 ![eika01](src\img\eika01.png) ![eika02](src\img\eika02.png)
 ![eika03](src\img\eika03.png)
+
+---
+
+## Design Mockup
+
+[Figma](https://www.figma.com/file/Bz6kGmXNJaqTWHduZm5BAJ/Eika-ShoppingListApp?node-id=0%3A1)
