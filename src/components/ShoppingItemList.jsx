@@ -1,6 +1,5 @@
 import React from "react";
 import ShoppingItem from "./ShoppingItem";
-import trash from "../img/trash.png";
 
 function ShoppingItemList({ itemList, setItemList }) {
   const updateItemList = (id) => {

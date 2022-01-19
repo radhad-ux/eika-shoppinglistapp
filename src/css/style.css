@@ -1,12 +1,11 @@
 @import "./shared.css";
-
-@import "./component/welcome.css";
-@import "./component/shopping-list.css";
-
 @import "./variable.css";
-
 @import "./button.css";
 
-@import "./component/itemcreator.css";
+@import "./components/welcome.css";
 
-@import "./component/sorter.css";
+@import "./components/shopping-list.css";
+
+@import "./components/itemcreator.css";
+
+@import "./components/sorter.css";

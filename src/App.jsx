@@ -1,17 +1,14 @@
 import WelcomeScreen from "./screens/WelcomeScreen";
 import ListScreen from "./screens/ListScreen";
-import Footer from "./components/Footer";
 import "./css/style.css";
 import { useState, useEffect } from "react";
-
 import logo from "./img/mainlogo.jpg";
 
 function App() {
   // Local state
   const [itemList, setItemList] = useState([]);
 
-  const currentYear = new Date().getFullYear();
-
+  // Methods
   useEffect(() => {
     const data = localStorage.getItem("itemList");
     if (data) {
