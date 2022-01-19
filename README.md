@@ -81,3 +81,15 @@ After marking the shopping items as bought
 
 ![eika04.png](src/img/eika04.png)
 ![eika05.png](src/img/eika05.png)
+
+---
+
+## Acknowledgment
+
+- This project is developed during Front end training at [Novare Potential](https://www.novarepotential.com/).
+
+- Thanks to Eduardo Alvarez (Tech Education Team Lead at Novare Potential) for the project briefing and mentoring.
+
+- All icons by FontAwesome (Creative Commons Attribution 4.0 International license).
+- Noto Sans font is by from Google Fonts.
+- Images from freepik.com.
