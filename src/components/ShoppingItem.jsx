@@ -18,7 +18,7 @@ export default function ShoppingItem({ item, updateItemList, deleteItemList }) {
             type="image"
             img
             src={trash}
-            onClick={() => deleteItemList(item.id)}
+            onClick={() => deleteItemList(id)}
           />
         </div>
       )}

@@ -12,10 +12,10 @@ export default function ListScreen({ itemList, setItemList }) {
     .filter((item) => item.isAcquired)
     .map((item) => <ShoppingItem key={item.id} item={item} />);
 
-  function removeAllItems() {
+  const removeAllItems = () => {
     setItemList([]);
     localStorage.clear();
-  }
+  };
 
   return (
     <section className="listscreen">
@@ -28,12 +28,11 @@ export default function ListScreen({ itemList, setItemList }) {
 
       <AddItemCreator itemList={itemList} setItemList={setItemList} />
 
-      {acquiredItemList.length > 0 && (
-        <ButtonToggle
-          status={showAcquired}
-          onClick={() => setShowAcquired(!showAcquired)}
-        />
-      )}
+      <ButtonToggle
+        showAcquired={showAcquired}
+        onClick={() => setShowAcquired(!showAcquired)}
+      />
+
       {showAcquired && acquiredItemList}
 
       <button className="btn-secondary" onClick={removeAllItems}>
