@@ -40,7 +40,7 @@ export default function AddItemCreatorForm({ onSubmit }) {
         <input
           className="inputPrice"
           type="number"
-          placeholder="Item Price"
+          placeholder="Item Price in kr"
           value={price}
           onChange={(event) => setPrice(event.target.value)}
         />

@@ -32,7 +32,6 @@ export default function ListScreen({ itemList, setItemList }) {
         showAcquired={showAcquired}
         onClick={() => setShowAcquired(!showAcquired)}
       />
-
       {showAcquired && acquiredItemList}
 
       <button className="btn-secondary" onClick={removeAllItems}>
