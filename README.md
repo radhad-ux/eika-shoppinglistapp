@@ -4,7 +4,7 @@ The EIKA shopping list app is a React.js single page web application which allow
 
 This project was bootstrapped with Create React App using the JavaScript template.
 
-EIKA is hosted on:
+EIKA is hosted on: [eika-shoppinglist](https://eika-shoppinglistapp.web.app/)
 
 ---
 
