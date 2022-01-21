@@ -4,6 +4,8 @@ The EIKA shopping list app is a React.js single page web application which allow
 
 This project was bootstrapped with Create React App using the JavaScript template.
 
+EIKA is hosted on:
+
 ---
 
 ## Pre-requisites
@@ -21,11 +23,12 @@ You need to have the following installed before you can install and run this pro
 1. Clone this repository: git clone https://github.com/radhad-ux/eika-shoppinglistapp.git
 
 2. Install the dependencies by running npm install in the project directory
-3. Install the dependencies. In the project directory, run: npm install
 
-4. Run the app in the development mode. In the project directory, run: npm start
+3. Run the app in the development mode. In the project directory, run: npm start
 
-5. Open http://localhost:3000 to view it in the browser.
+4. Open http://localhost:3000 to view it in the browser.
+
+5. To run the project in the production mode, use this command npm run build.
 
 ---
 
