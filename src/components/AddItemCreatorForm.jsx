@@ -22,6 +22,8 @@ export default function AddItemCreatorForm({ onSubmit }) {
       return alert("Please Enter the Item Name");
     } else if (price.trim() === "") {
       return alert("Please Enter the Item Price");
+    } else if (price.trim() <= 0) {
+      return alert("Please Enter the correct Item Price");
     } else {
       return true;
     }
